@@ -1,0 +1,23 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Menu")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Teleport")
+
+KillingCheats:CreateButton("Montain";
+function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4, 653, -359)
+     end)
+
+ KillingCheats:CreateButton("Map center"; function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(147, 441, 23)
+ end)
+
+  KillingCheats:CreateButton("Death counter", function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68, 29, 20346)
+   end)
+
+
+ KillingCheats:CreateButton("Atomic Slash", function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1065, 132, 23005)
+    end)
+
+
+ KillingCheats:CreateButton("Atomic Top", function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1047, 405, 23026)
+   end)
